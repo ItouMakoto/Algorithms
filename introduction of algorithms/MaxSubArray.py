@@ -39,5 +39,3 @@ if __name__ == '__main__':
     mid=int((0+len(a)-1)/2)
     array,max_left,max_right,value=findMaxSubArray(a,0,len(a)-1)
     print(array[max_left:max_right+1])
-    # array,max_left,max_right,value=findCrossSubArray(a,0,mid,len(a)-1)
-    # print(array[max_left:max_right+1])
